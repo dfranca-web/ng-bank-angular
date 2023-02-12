@@ -1,0 +1,26 @@
+<main>
+  <section>
+    <article>
+      <h2>Saldo</h2>
+      {{ accountValue | formatMoney }}
+    </article>
+    <br />
+
+    <div class="form-group">
+      <label for="withdraw" class="form-label">
+        Saque
+        <input type="text" [(ngModel)]="inputWithdraw" class="form-control" />
+      </label>
+      <button type="button" class="btn" (click)="withdraw()">Sacar</button>
+    </div>
+    <br />
+
+    <div class="form-group">
+      <label for="withdraw" class="form-label">
+        Depósito
+        <input type="text" [(ngModel)]="inputDeposit" class="form-control" />
+      </label>
+      <button type="button" class="btn" (click)="deposit()">Depositar</button>
+    </div>
+  </section>
+</main>

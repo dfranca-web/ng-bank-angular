@@ -1,0 +1,12 @@
+html,
+body {
+  @apply h-full;
+}
+
+body {
+  @apply p-8 font-poppins bg-gray-200;
+}
+
+main {
+  @apply flex justify-center items-center w-full h-full max-w-[640px] m-auto bg-white rounded-md shadow-xl;
+}

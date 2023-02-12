@@ -1,0 +1,31 @@
+{
+  "profile": {
+    "name": "João Gomes",
+    "email": "joão.gomes@gmail.com",
+    "phone": "(11) 99999-9999"
+  },
+  "currentAccount": {
+    "id": 322341,
+    "agency": 232,
+    "value": 100000
+  },
+  "account-transactions": [],
+  "investiments-portfolio": [
+    {
+      "id": 0,
+      "name": "Poupança",
+      "value": 1000
+    },
+    {
+      "id": 2,
+      "name": "Emergência",
+      "value": 10000
+    }
+  ],
+  "investiments-transactions": [],
+  "credit-card": {
+    "limit": 10000,
+    "value": 10000
+  },
+  "credit-card-transactions": []
+}

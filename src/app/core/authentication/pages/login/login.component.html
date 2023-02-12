@@ -1,0 +1,38 @@
+<main>
+  <section>
+    <form [formGroup]="loginForm" (ngSubmit)="submitLogin()" class="form-login">
+      <div class="form-group">
+        <label for="email" class="form-label">
+          E-mail
+          <input
+            type="emai"
+            name="email"
+            id="email"
+            class="form-control"
+            formControlName="email"
+            autocomplete="off"
+            required
+            placeholder="seu@email.com"
+          />
+        </label>
+      </div>
+      <div class="form-group">
+        <label for="password" class="form-label">
+          Senha
+          <input
+            type="password"
+            name="password"
+            id="password"
+            class="form-control"
+            formControlName="password"
+            autocomplete="off"
+            required
+            placeholder="******"
+          />
+        </label>
+      </div>
+
+      <button type="submit" class="btn btn--lg" title="Entrar">Entrar</button>
+    </form>
+  </section>
+</main>
